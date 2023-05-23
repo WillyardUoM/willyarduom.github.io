@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Service</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    </head>
+<body>
+    
+    <header id="header" index = '3'></header>
+
+    <div class="service" style="background-color: transparent; margin-top: 70px;">
+        <h1 class="title">Our services</h1>
+        <p class="sub_title">With over 15 years experience and real focus on customer satisfaction, you can rely on us for your next renovation,
+            driveway sett or house. We provide a professional service for private and commercial customers.
+        </p>
+        <div class="container" style="gap: 10px; max-width: 1220px;">
+            <div class="item left" style="margin-bottom: 20px;">
+                <img src="http://anpsthemes.com/constructo-new-demos/10/wp-content/uploads/2014/12/post2.jpg" alt="">
+                <h1>Design and build</h1>
+                <p>From initial design and project specification to archieving a high end finish.</p>
+            </div>
+            <div class="item up">
+                <img src="https://img.freepik.com/free-photo/man-electrical-technician-working-switchboard-with-fuses_169016-24062.jpg?w=2000" alt="">
+                <h1>Electrical Installation</h1>
+                <p>Efficient and reliable electrical installations tailored to your specific needs.</p>
+            </div>
+            <div class="item right">
+                <img src="https://quanticalabs.com/wp_themes/renovate/files/2015/05/image_031-480x320.jpg" alt="">
+                <h1>Tiling</h1>
+                <p>We offer quality tiling and painting solutions for interior and exterior.</p>
+            </div>
+            <div class="item left">
+                <img src="https://ravishmag.co.uk/wp-content/uploads/2022/10/Should-you-renovate-before-you-sell-your-house.jpg" alt="">
+                <h1>RENOVATION and painting</h1>
+                <p>We can help you bring new life and colors to existing rooms and develop unused spaces.</p>
+            </div>
+            <div class="item down">
+                <img src="https://i.ytimg.com/vi/j5Wdnq5hBwI/maxresdefault.jpg" alt="">
+                <h1>Plumbing</h1>
+                <p>Depend on our expertise for flawless pipe installations and reliable plumbing performance.
+                </p>
+            </div>
+            <div class="item right">
+                <img src="https://americanopenings.com/wp-content/uploads/InstallingAlumHop.jpg" alt="">
+                <h1>Aluminium Frame installations</h1>
+                <p>Enhance your space with elegant aluminum windows and frames. Experience superior quality and stylish design options.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        ScrollReveal().reveal('.title', {distance: '100px', duration: 1500, reset: true, origin:'top'});
+        ScrollReveal().reveal('.sub_title', {distance: '100px', duration: 1500, reset: true,origin:'top'});
+        ScrollReveal().reveal('.left', {distance: '100px', duration: 1500, origin: 'left'});
+        ScrollReveal().reveal('.up', {distance: '100px', duration: 1500, origin: 'top'});
+        ScrollReveal().reveal('.down', {distance: '100px', duration: 1500, origin: 'bottom'});
+        ScrollReveal().reveal('.right', {distance: '100px', duration: 1500, origin: 'right'});
+    </script>
+    <script src="js/loader.js"></script>
+
+</body>
+</html>
